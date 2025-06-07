@@ -1,0 +1,8 @@
+version: "1"
+rules:
+  - base: master
+    upstream: iib0011:main
+    mergeMethod: merge
+    mergeUnstable: false
+    conflictReviewers:
+      - azhuge233
